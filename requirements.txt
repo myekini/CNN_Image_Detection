@@ -6,5 +6,4 @@ matplotlib
 seaborn
 requests
 keras
-tensorflow
 Gunicorn

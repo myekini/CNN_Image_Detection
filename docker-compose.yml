@@ -1,7 +1,7 @@
-version: "3.9"
+version: "3"
 services:
   cnn_detection:
     build: .
     ports:
-      - "8000:8000"
+      - "5000:5000"
     
