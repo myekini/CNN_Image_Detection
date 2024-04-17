@@ -1,7 +1,8 @@
-import io
+import io # type: ignore
 from flask import Flask, request, jsonify
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import img_to_array, load_img
+from tensorflow import keras
+from keras.models import load_model
+from keras.preprocessing.image import img_to_array, load_img
 import numpy as np
 
 app = Flask(__name__)
