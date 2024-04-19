@@ -7,3 +7,6 @@ seaborn
 requests
 keras
 Gunicorn
+tensorflowjs
+   
+
