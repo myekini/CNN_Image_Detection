@@ -8,8 +8,8 @@ import numpy as np
 app = Flask(__name__)
 
 # Replace with actual paths
-MODEL_PATH = '/home/ubuntu/TEST/TEST/checkpoints/model_keras_leaf.h5'
-CHECKPOINT_PATH = '/home/ubuntu/TEST/TEST/checkpoints/model_weights-leaf.weights.h5'
+MODEL_PATH = '/home/ubuntu/CNN_MODEL/TEST/checkpoints/model_keras_leaf.h5'
+CHECKPOINT_PATH = '/home/ubuntu/CNN_MODEL/checkpoints/model_weights-leaf.weights.h5'
 TARGET_NAMES = ['Class 0 (African_Almond)', 'Class 1 (Avocado)', 'Class 2 (Cashew)', 'Class 3 (Guava)','Class 4 (Mango)']
 
 # Load the model architecture and weights
@@ -80,3 +80,4 @@ def allowed_file(filename):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
