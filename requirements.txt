@@ -8,5 +8,5 @@ requests
 tensorflow
 Gunicorn
 tensorflowjs
-   
+flask-cors
 
